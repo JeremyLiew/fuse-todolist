@@ -19,7 +19,7 @@
         </div>
       </div>
       <!-- Search Bar Section -->
-      <div class="relative bg-gray-100 w-[80%] h-12 flex items-center px-4 rounded mx-auto mt-4">
+      <div class="relative bg-gray-100 w-full h-12 flex items-center px-4 rounded mx-auto mt-4">
         <div class="w-[10%] mr-4">
             <button class="flex items-center space-x-2 text-gray-600" @click="toggleDropdown">
               <span>{{ selectedValue }}</span>
@@ -61,12 +61,12 @@
       </div>
     </div>
     <div class="hidden md:contents">
-      <div class="flex items-center md:w-[20%] w-full justify-center">
+      <div class="flex items-center md:w-[20%] w-full justify-start">
         <img src="/logo.svg" alt="Logo" class="h-10 w-10 lg:h-15 lg:w-15 mr-2" />
         <h3 class="text-2xl lg:text-3xl font-bold text-gray-800">Logoipsum</h3>
       </div>
       <!-- Dropdown and Search Section -->
-      <div class="md:w-[60%] w-full px-4 md:order-none order-1">
+      <div class="w-[50%] px-4 md:order-none order-1">
         <div class="relative bg-gray-100 w-[80%] h-12 flex items-center px-4 rounded mx-auto md:w-full">
           <!-- Dropdown Section -->
           <div class="w-[10%] md:w-[30%] mr-4">
@@ -94,7 +94,7 @@
             </div>
           </div>
           <!-- Search Input -->
-          <div class="flex items-center w-full md:w-[80%] border-l pl-4 ml-4">
+          <div class="flex items-center w-full border-l pl-4 ml-4">
             <input
               type="text"
               class="flex-grow bg-gray-100 text-gray-600 placeholder-gray-400 outline-none"
@@ -110,7 +110,7 @@
         </div>
       </div>
       <!-- User Profile Section -->
-      <div class="flex md:w-[20%] w-full justify-center md:justify-end items-center space-x-2">
+      <div class="flex w-[30%] justify-end items-center space-x-2">
         <div class="relative w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center">
           <span class="text-gray-700 font-bold">J</span>
         </div>

@@ -1,12 +1,12 @@
 <template>
     <div class="flex h-screen">
       <Sidebar :todos="selectedTodos" />
-      <main class="flex-1 p-5">
+      <main>
         <PieChart :data="pieData" />
-        <div>
+        <!-- <div>
           <h3>Selected Todo:</h3>
           <pre>{{ selectedTodos }}</pre>
-        </div>
+        </div> -->
       </main>
     </div>
   </template>

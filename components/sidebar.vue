@@ -1,6 +1,6 @@
 <template>
-    <aside class="md:w-64 bg-stone-700 text-white p-5">
-      <h2 class="text-sm sm:text-lg font-normal mb-6">
+    <aside class="w-32 md:w-64 bg-stone-700 text-white p-2 md:p-5">
+      <h2 class="text-[12px] sm:text-lg font-normal mb-6">
         Welcome to <span class="text-yellow-400 underline">Poh Kit</span>
         <br />
         Todolist dashboard
